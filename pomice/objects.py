@@ -4,10 +4,10 @@ from typing import List
 from typing import Optional
 from typing import Union
 
-from discord import ClientUser
-from discord import Member
-from discord import User
-from discord.ext import commands
+from nextcord import ClientUser
+from nextcord import Member
+from nextcord import User
+from nextcord.ext import commands
 
 from .enums import PlaylistType
 from .enums import SearchType

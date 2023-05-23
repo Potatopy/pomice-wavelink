@@ -18,9 +18,9 @@ from urllib.parse import quote
 
 import aiohttp
 import orjson as json
-from discord import Client
-from discord.ext import commands
-from discord.utils import MISSING
+from nextcord import Client
+from nextcord.ext import commands
+from nextcord.utils import MISSING
 from websockets import client
 from websockets import exceptions
 from websockets import typing as wstype

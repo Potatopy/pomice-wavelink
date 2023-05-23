@@ -8,11 +8,11 @@ from typing import Optional
 from typing import TYPE_CHECKING
 from typing import Union
 
-from discord import Client
-from discord import Guild
-from discord import VoiceChannel
-from discord import VoiceProtocol
-from discord.ext import commands
+from nextcord import Client
+from nextcord import Guild
+from nextcord import VoiceChannel
+from nextcord import VoiceProtocol
+from nextcord.ext import commands
 
 from . import events
 from .enums import SearchType
@@ -33,8 +33,8 @@ from .pool import NodePool
 from pomice.utils import LavalinkVersion
 
 if TYPE_CHECKING:
-    from discord.types.voice import VoiceServerUpdate
-    from discord.types.voice import GuildVoiceState
+    from nextcord.types.voice import VoiceServerUpdate
+    from nextcord.types.voice import GuildVoiceState
 
 __all__ = ("Filters", "Player")
 

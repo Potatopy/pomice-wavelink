@@ -6,9 +6,9 @@ from typing import Optional
 from typing import Tuple
 from typing import TYPE_CHECKING
 
-from discord import Client
-from discord import Guild
-from discord.ext import commands
+from nextcord import Client
+from nextcord import Guild
+from nextcord.ext import commands
 
 from .objects import Track
 from .pool import NodePool
