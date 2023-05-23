@@ -7,9 +7,9 @@ Copyright (c) 2023, cloudwithax
 
 Licensed under GPL-3.0
 """
-import discord
+import nextcord
 
-if not discord.version_info.major >= 2:
+if not nextcord.version_info.major >= 2:
 
     class DiscordPyOutdated(Exception):
         pass
