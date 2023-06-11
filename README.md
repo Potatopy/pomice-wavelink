@@ -127,3 +127,5 @@ Why is it saying "No module named pomice found"?
 # Contributors
 
 - Thanks to [vveeps](https://github.com/vveeps) for implementing some features I wasn't able to do myself
+
+*i gave up editing my code for discord.py ¯\_(ツ)_/¯*
